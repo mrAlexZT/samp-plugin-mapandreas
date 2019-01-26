@@ -1,0 +1,23 @@
+{
+    "user": "mrAlexZT",
+    "repo": "samp-plugin-mapandreas",
+    "resources": [
+        {
+            "name": "^samp-plugin-mapandreas-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/MapAndreas.dll"]
+        },
+        {
+            "name": "^samp-plugin-mapandreas-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/MapAndreas.so"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["mrAlexZT/samp-plugin-mapandreas"]
+    }
+}
