@@ -7,14 +7,16 @@
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/MapAndreas.dll"]
+            "plugins": ["plugins/MapAndreas.dll"],
+            "scriptfiles": ["scriptfiles/SAfull.hmap"]
         },
         {
             "name": "^samp-plugin-mapandreas-(.*).zip$",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/MapAndreas.so"]
+            "plugins": ["plugins/MapAndreas.so"],
+            "scriptfiles": ["scriptfiles/SAfull.hmap"]
         }
     ],
     "runtime": {
